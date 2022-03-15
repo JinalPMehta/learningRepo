@@ -1,0 +1,9 @@
+package com.example.loginPage.interfaces;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.loginPage.User;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+ 
+}
