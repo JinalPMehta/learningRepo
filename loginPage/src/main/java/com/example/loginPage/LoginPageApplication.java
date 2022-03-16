@@ -11,6 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages= {"com.example.loginPage"})
 public class LoginPageApplication {
 
+	//start point
 	public static void main(String[] args) {
 		SpringApplication.run(LoginPageApplication.class, args);
 	}
